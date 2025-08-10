@@ -64,6 +64,10 @@ h2 {
     margin-bottom: 48px;
 }
 
+h3{
+    margin: 0;
+}
+
 .landing {
     display: flex;
     gap: 32px;
@@ -105,7 +109,7 @@ h2 {
 .information {
     display: flex;
     flex-direction: column;
-    padding: 80px 25vw;
+    margin: 80px 25vw;
 
     text-align: center;
 }
@@ -133,7 +137,7 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 80px 25vw;
+    padding: 80px 28vw;
     color: #1F2937;
 
 }
@@ -148,4 +152,40 @@ h2 {
     text-align: end;
     font-weight: 900;
     font-size: 18px;
+}
+
+.call-to-action {
+    margin: 80px 25vw;
+    padding: 32px 5vw;
+    border-radius: 8px;
+
+    color: #F9FAF8;
+    background-color: #3882F6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action button {
+    background-color: inherit;
+    border: 2px #F9FAF8 solid;
+    border-radius: 8px;
+
+    padding: 8px 16px;
+    color: inherit;
+    font-weight: 900;
+}
+
+.call-to-action p {
+    color: #E5E7EB;
+}
+
+footer {
+    padding: 32px 25vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
