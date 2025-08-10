@@ -18,7 +18,7 @@ ul {
     gap: 24px;
 }
 
-li {
+li, .landing-content p{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 16px 300px;
+    padding: 16px 25vw;
 }
 
 .logo {
@@ -46,3 +46,51 @@ header {
     color: #F9FAF8;
 }
 
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.landing {
+    display: flex;
+    gap: 32px;
+    padding: 80px 25vw;
+}
+
+.image-placeholder {
+    background-color: gray;
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing div {
+    width: 50%;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.landing button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+
+    border-radius: 8px;
+    border: none;
+
+    padding: 8px 24px;
+}
